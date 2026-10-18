@@ -1,0 +1,23 @@
+{
+  "name": "chesszen-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ChessZen Classes - Premium chess coaching website",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.475.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.29.0",
+    "sonner": "^2.0.1",
+    "tailwind-merge": "^3.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
