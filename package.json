@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "description": "ChessZen Classes - Premium chess coaching website",
+  "scripts": {
+    "build": "node build.js",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
+  },
   "dependencies": {
     "axios": "^1.7.9",
     "clsx": "^2.1.1",
@@ -14,10 +19,7 @@
     "tailwind-merge": "^3.0.1"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.17"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "tailwindcss": "^3.4.17",
+    "wrangler": "^4.151.1"
   }
 }
